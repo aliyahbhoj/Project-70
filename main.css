@@ -1,0 +1,99 @@
+body
+{
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+.icon-bar{
+    width: 30px;
+    height: 10px;
+    color: black;
+}
+.navbar-toggle{
+    background-color: white;
+}
+.links{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: transparent;
+}
+.floatthing{
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blue;
+}
+.social:hover{
+    color: black;
+    
+}
+.life_mainDiv{
+    border: 1px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
+}
+.life_mainDiv hr{
+    width: 230px;
+}
+.life_mainDiv h5, .travel_mainDiv p{
+    margin-left: 20px;
+}
+#small{
+    width: 2000px;
+    height: 600px;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right
+}
+.movie_text span{
+    color: brown;
+}
+#art{
+    padding-bottom: 10px;
+}
+#spelling{
+    padding-bottom: 10px;
+}
+.environment_li{
+    margin-top: 13px;
+}
+.environment_li h4{
+    border-bottom: 1px  solid white;
+    padding: 8px;
+}
+.environment_li img{
+    border-radius: 25px;
+}
+.environment_li p{
+    margin-top: 10px;
+}
